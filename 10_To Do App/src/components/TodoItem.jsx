@@ -30,7 +30,7 @@ function TodoItem({ todo }) {
                 checked={todo.completed}
                 onChange={toggleCompleted}
             />
-            <input
+             <input
                 type="text"
                 className={`border outline-none w-full bg-transparent rounded-lg ${
                     isTodoEditable ? "border-black/10 px-2" : "border-transparent"
@@ -38,6 +38,7 @@ function TodoItem({ todo }) {
                 value={todoMsg}
                 onChange={(e) => setTodoMsg(e.target.value)}
                 readOnly={!isTodoEditable}
+               
             />
             {/* Edit, Save Button */}
             <button
@@ -65,3 +66,5 @@ function TodoItem({ todo }) {
 }
 
 export default TodoItem;
+
+
