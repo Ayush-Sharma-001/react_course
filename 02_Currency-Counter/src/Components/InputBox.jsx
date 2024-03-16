@@ -85,7 +85,6 @@ function InputBox({
   return (
     <div className={`bg-white p-6 rounded-lg text-sm flex ${className} `}>
       <div className="w-1/2">
-      <h1>Ayush Gaandu Hai</h1>
         <label htmlFor={amountInputId} className="text-black/40 mb-2 inline-block">
           {label}
         </label>
