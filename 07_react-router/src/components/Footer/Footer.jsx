@@ -6,12 +6,13 @@ export default function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                        <Link to="/" className="flex items-center">
-                            <img
-                                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                                className="mr-3 h-16"
-                                alt="Logo"
-                            />
+                        <Link to="/"
+                        className="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300  rounded-lg text-xl font-bold   px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none">
+                        
+                     
+                   
+                        SAJ
+                     
                         </Link>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -44,12 +45,12 @@ export default function Footer() {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        Github
+                                        Features
                                     </a>
                                 </li>
                                 <li>
                                     <Link to="/" className="hover:underline">
-                                        Discord
+                                        Check Progress
                                     </Link>
                                 </li>
                             </ul>
@@ -76,7 +77,7 @@ export default function Footer() {
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
                         <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                            Ayush Sharma
                         </a>
                         . All Rights Reserved.
                     </span>

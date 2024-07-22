@@ -45,7 +45,11 @@ function App() {
     <TodoProvider value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}>
       <div className="bg-[#172842] min-h-screen py-7 px-4">
         <div className=" bg-[#1c3865] w-full max-w-4xl mx-auto shadow-md rounded-lg px-4 py-4 text-white">
-          <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
+<<<<<<< HEAD
+          <h1 className="text-2xl font-bold text-center mb-8 mt-2">Schedule you Daily Tasks</h1>
+=======
+          <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Tasks</h1>
+>>>>>>> 6069a62aa3d6179b34cb9cc255cbc56a8c10c245
           <div className="mb-4">
             {/* Todo form goes here */}
             <TodoForm />
